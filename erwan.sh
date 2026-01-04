@@ -2,9 +2,9 @@
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
 #Database Details
-USER='paidjcmv_test123';
-PASS='paidjcmv_test123';
-DBNAME='paidjcmv_test123';
+USER='paidjcmv_test';
+PASS='paidjcmv_test';
+DBNAME='paidjcmv_test';
 PORT_TCP='1194';
 PORT_UDP='53';
 
@@ -69,7 +69,7 @@ $RESET"
  
  echo -e "                $RED
 |    
-               KALDAG VPN NEW OVPN SCRIPT
+               ERWAN VPN NEW OVPN SCRIPT
 $RESET"
 }
 
@@ -544,7 +544,7 @@ apt-get install netcat lsof php php-mysqli php-mysql php-gd php-mbstring python 
 cat << websock > /usr/local/sbin/proxy.py
 #!/usr/bin/env python3
 # encoding: utf-8
-# SocksProxy By: KALDAG VPN
+# SocksProxy By: ERWAN VPN
 import socket, threading, thread, select, signal, sys, time, getopt
 
 # CONFIG
@@ -897,7 +897,7 @@ cat <<"EOM" >/var/www/html/index.html
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>KALDAG VPN</title>
+<title>ERWAN VPN</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css" media="screen">
