@@ -257,6 +257,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 mkdir /etc/openvpn/script
 mkdir /etc/openvpn/log
 mkdir /etc/openvpn/keys
+mkdir -p /etc/openvpn/login
 mkdir /var/www/html/stat
 touch /var/www/html/stat/tcp.txt
 touch /var/www/html/stat/udp.txt
